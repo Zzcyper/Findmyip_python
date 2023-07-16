@@ -8,3 +8,4 @@ provides a straightforward way to obtain your IP address without the need for ma
 - How it works
 - When you run the "findmyip" application, it makes an HTTP request to a public IP address API. The API responds with your  
 public IP address, which is then displayed on the screen.
+
