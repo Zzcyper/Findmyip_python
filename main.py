@@ -1,5 +1,5 @@
+import customtkinter as ctk
 import requests
-import tkinter as tk
 from tkinter import messagebox
 
 def track_ip():
@@ -11,12 +11,16 @@ def track_ip():
     except requests.RequestException:
         messagebox.showerror("Error", "An error occurred while retrieving the IP address.")
 
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("dark-blue")
 
-window = tk.Tk()
+window = ctk.CTk()
 window.title("IP Tracker")
-window.configure(bg="gray")  
+window.geometry("300x200")
+window.configure(bg="black")
 
-track_button = tk.Button(window, text="Track IP", command=track_ip)
-track_button.pack(pady=10)
+track_button = ctk.CTkButton(window, text="Track IP", command=track_ip)
+track_button.pack(pady=10, padx=10)
 
 window.mainloop()
+
