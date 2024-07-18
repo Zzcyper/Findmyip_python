@@ -2,6 +2,10 @@
                                 
 > By Z_zcyper 
 
+- Update Log
+  - Modern UI
+  - Change Color to Black
+
 - The "findmyip" project is a simple Python application that allows you to quickly retrieve your public IP address. It   
 provides a straightforward way to obtain your IP address without the need for manual lookup.
 
